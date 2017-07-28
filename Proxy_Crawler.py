@@ -31,13 +31,7 @@ def select_valid_ip(ip_port):
             if str(requests.get(url_for_testing, proxies=proxies, timeout=1).content)[2:-3] == ip:
                 print(proxies["http"] + " succeed.")
                 valid_proxies.append((ip, port))
-        except requests.exceptions.ProxyError:
-            print(proxies["http"] + " failed.")
-            continue
-        except requests.exceptions.Timeout:
-            print(proxies["http"] + " failed.")
-            continue
-        except requests.exceptions.ChunkedEncodingError:
+        except:
             print(proxies["http"] + " failed.")
             continue
     print("Get {} valid proxies.".format(len(valid_proxies)))
