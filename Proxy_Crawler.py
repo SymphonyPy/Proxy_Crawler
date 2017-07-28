@@ -1,6 +1,5 @@
 import requests
 import re
-import time
 import xlwt
 from bs4 import BeautifulSoup
 
@@ -17,7 +16,6 @@ def get_proxy_ip(page):
             '''<td data-title="IP">(.*?)</td><td data-title="PORT">(.*?)</td><td data-title="匿名度">.*?</td><td data-title="类型">HTTP''')
         for i in re.findall(pattern, html):
             ip_and_port.append(i)
-        time.sleep(1)
     print("Get {} proxies.".format(len(ip_and_port)))
     return ip_and_port
 
