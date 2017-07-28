@@ -1,11 +1,15 @@
 # Proxy_Crawler
 
-´Ówww.kuaidaili.com/free/inha ÉÏÅÀÈ¡´úÀí²¢ÑéÖ¤ÊÇ·ñ¿ÉÓÃ¡£
+ä»www.kuaidaili.com/free/inha ä¸Šçˆ¬å–ä»£ç†å¹¶éªŒè¯æ˜¯å¦å¯ç”¨ã€‚
 
-ÔÚPython3ÖĞÔËĞĞ
+åœ¨Python3ä¸­è¿è¡Œ
 
-ĞèÒªµÄ¿â£º
-requests£ºHTTP¿â
-re£ºÕıÔò±í´ï
-xlwt£ºÓÃÓÚ½«½á¹ûÊä³öµ½µ±Ç°Ä¿Â¼ÏÂµÄoutput_proxies.xls
-bs4£ºÓÃÆäÖĞµÄBeautifulSoup½âÎöHTML
+éœ€è¦çš„åº“ï¼š
+
+requestsï¼šHTTPåº“
+
+reï¼šæ­£åˆ™è¡¨è¾¾
+
+xlwtï¼šç”¨äºå°†ç»“æœè¾“å‡ºåˆ°å½“å‰ç›®å½•ä¸‹çš„output_proxies.xls
+
+bs4ï¼šç”¨å…¶ä¸­çš„BeautifulSoupè§£æHTML
